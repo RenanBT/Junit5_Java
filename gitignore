@@ -1,0 +1,103 @@
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
+*.log
+
+# Compiled class files
+*.class
+
+# Diretorios de compilação
+/bin/
+/build/
+/target/
+
+# Cache de pacotes do Maven
+.mvn/
+.mvn/wrapper/maven-wrapper.jar
+**/target/
+
+# Arquivos do Gradle
+.gradle/
+/build/
+**/*.iml
+**/*.ipr
+**/*.iws
+.gradle/
+/build/
+!gradle-wrapper.jar
+
+# Arquivos de ambiente de desenvolvimento
+.idea/
+*.swp
+*.swo
+*.swn
+*.sml
+
+# Arquivos de configuração do Eclipse
+.classpath
+.project
+.settings/
+
+# Arquivos gerados pelo sistema
+out/
+logs/
+*.log.*
+
+# Arquivos de configuração de sistema operacional
+*.DS_Store
+*.env
+*.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp
+
+# Bibliotecas e dependências baixadas
+lib/
+**/*.jar
+
+# Arquivos de cobertura de teste
+coverage/
+jacoco.exec
+
+# Arquivos de cache do IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Arquivos de segurança
+**/*.jks
+**/*.p12
+**/*.pem
+**/*.crt
+**/*.key
+
+# Arquivos de build do Maven
+target/
+
+# Arquivos de build do Gradle
+.gradle/
+build/
+
+# Arquivos de configuração de Docker
+docker-compose.override.yml
+docker-compose.yml
+
+# Configurações específicas da sua IDE
+.vscode/
+
+# Outros arquivos temporários
+*.war
+*.ear
+*.jar
+*.swp
+*.zip
+*.tar.gz
+*.tmp
+*.backup
+*.bak
