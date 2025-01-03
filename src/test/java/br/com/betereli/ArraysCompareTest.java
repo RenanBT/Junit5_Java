@@ -23,6 +23,7 @@ class ArraysCompareTest {
 		assertArrayEquals(numbers, excpectedArray);
 	}
 	
+	//Test Expected to fail
 	@Test
 	@Timeout(1)
 	void testSortPerformance() {
@@ -32,7 +33,6 @@ class ArraysCompareTest {
 			numbers[0]=i;
 			Arrays.sort(numbers);
 		}
-		//assertArrayEquals(numbers, excpectedArray);
 	}
 
 }
